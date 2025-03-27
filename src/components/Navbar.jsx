@@ -8,6 +8,8 @@ const Navbar = () => {
 
                 <Link to = "/">Home</Link>
                 <Link to = "/itinerary">My Itinerary</Link>
+                <Link to="/saved">Saved Itineraries</Link>
+                <Link to = "/contact">Contact</Link>
 
             </div>
         </nav>

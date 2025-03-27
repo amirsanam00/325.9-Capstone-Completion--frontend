@@ -8,10 +8,9 @@ export const getCities = async (cityPrefix) => {
             params: {
                 q: cityPrefix,
                 format: 'json',
-                limit: 5
             }
         });
-        return response.data.data;
+        return response.data;
     } catch(error) {
         console.error ('Nominatim API error:', error);
         throw error;
