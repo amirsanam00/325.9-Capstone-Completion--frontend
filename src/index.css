@@ -1,0 +1,78 @@
+/* Layout */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #007bff;
+  padding: 1rem;
+  color: white;
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.navbar-content a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar-content a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #f1f1f1;
+  margin-top: 2rem;
+}
+
+/* Page Styles */
+.home,
+.itinerary-builder {
+  text-align: center;
+}
+
+/* Form Elements */
+input,
+textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 0.75rem 1.5rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.error-text {
+  color: red;
+  font-weight: bold;
+}
